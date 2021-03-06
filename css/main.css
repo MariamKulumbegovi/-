@@ -253,6 +253,8 @@
 }
 .footer-wrapper {
 	padding-bottom: 40px;
+	max-width: 1761px;
+    width: 100%;
 }
 .designer1 {
 	line-height: 2;
