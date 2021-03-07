@@ -518,6 +518,10 @@
 		max-width: 650px;
     	width: 100%
 	}
+	.search {
+		width: 24px;
+    	height: 50px;
+	}
 	.footer-nav {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
