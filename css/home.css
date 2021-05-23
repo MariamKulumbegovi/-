@@ -111,11 +111,7 @@
 	.navbar {
 		display: none;
 	}
-	.header-wrapper {
-		padding: 30px 29px 0px 29px;
-		height: 25px;
-		background-color: #fff;
-	}
+	
 	.main-icon {
 		color: black;
 
@@ -146,6 +142,7 @@
 	}
 	.orderhistory {
 		margin-left: 0px;
+		padding: 10px;
 }
 
 }

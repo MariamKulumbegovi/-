@@ -388,12 +388,12 @@
 	-webkit-transition-property: all;
 	-o-transition-property: all;
 	transition-property: all;
-	-webkit-transition-duration: 0.3s;
-	     -o-transition-duration: 0.3s;
-	        transition-duration: 0.3s;
-	-webkit-transition-delay: 0.3s;
-	     -o-transition-delay: 0.3s;
-	        transition-delay: 0.3s;
+	-webkit-transition-duration: 0.2s;
+	     -o-transition-duration: 0.2s;
+	        transition-duration: 0.2s;
+	-webkit-transition-delay: 0.1s;
+	     -o-transition-delay: 0.1s;
+	        transition-delay: 0.1s;
 }
 .hover-li:hover {
 	background-color: #FF2288;
@@ -440,14 +440,15 @@
 
 }
 
-@media screen and (max-width:1367px) {
+@media screen and (max-width:1000px) {
+	.home-page {
+		flex-direction: column;
+	}
 	.navbar {
 		display: none;
 	}
 	.header-wrapper {
-		padding: 30px 29px 0px 29px;
-		height: 25px;
-		background-color: #fff;
+		display: none;
 	}
 	.main-icon {
 		color: black;
@@ -499,11 +500,7 @@
 		justify-content: center;
 		max-width: 1000px;
 		width: 100%;
-		margin:0px 150px 0px 150px;
 
-	}
-	.footer-nav {
-		margin:130px 90px 0px 90px;
 	}
 	.footer-bar {
 		background-color: #ff2288;
@@ -518,9 +515,8 @@
 		max-width: 650px;
     	width: 100%
 	}
-	.search {
-		width: 24px;
-    	height: 50px;
+	.socialmedia {
+		justify-content: center;
 	}
 	.footer-nav {
 		-webkit-box-pack: center;
@@ -531,5 +527,55 @@
 		width: 24px;
     		height: 50px;
 	}
+	.design-today {
+		display: none;
+	}
+	.box1 {
+		height: 50px;
+	}
 }
 
+@media screen and (max-width:768px){
+	.designs-bar {
+		flex-direction: column;
+	}
+	.all {
+		flex-direction: column;
+		align-items: center;
+	}
+	.top-designers {
+		flex-direction: column;
+	}
+	.footer-bar {
+		flex-wrap: wrap;
+    	justify-content: center;
+		text-align: center;
+	}
+	.follow-following {
+		display: none;
+	}
+	.footer-content {
+		margin: 0;
+	}
+	.upload {
+		max-width: 50px;
+	}
+	.upload-text {
+		font-size: 10px;
+	}
+	.home-page {
+		flex-direction: column;
+	}
+	.satauri1 {
+		text-align: center;
+	}
+	.for {
+		justify-content: flex-end;
+	}
+	.header-wrapper {
+		display: none;
+	}
+	.for-text {
+		font-size: 10px;
+	}
+}
